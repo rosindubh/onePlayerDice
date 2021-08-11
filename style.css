@@ -1,0 +1,25 @@
+/*phil welsby - 11 aug 2021 - one player dice game*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: green;
+}
+.heading {
+    background-color:green;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    height: 20vh
+    ;
+}
+.allDice {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    
+}
