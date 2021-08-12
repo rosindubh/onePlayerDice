@@ -17,6 +17,11 @@ body {
     height: 15vh
     ;
 }
+
+p {
+    font-size: 30px;
+    padding-left: 20px;
+}
 .allDice {
     /*background-color: tomato;*/
     display: flex;
@@ -33,22 +38,26 @@ body {
     /*background-color: red;*/
     display: flex;
     justify-content: center;
-    padding-top: 500px;
+    padding-top: 400px;
 
 }
 
 #button {
     background: red;
     font-size: 30px;
-    border-radius: 8px;
-    margin: 10px;
-    color: white;
+    border-radius: 18px;
+    box-shadow: 0px 0px 15px 5px #000000;
+    padding:20px;
+}
+
+.rollDice {
+    padding-left: 160px;
 }
 
 #display {
-    background-color:blue;
+    /*background-color:blue;*/
     font-size: 50px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    color: white;
 }
