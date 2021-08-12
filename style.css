@@ -6,58 +6,34 @@
     padding: 0px;
 }
 
-body {
-    background-color: green;
-}
-.heading {
-    background-color:yellow;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    height: 15vh
-    ;
+/*HEADING*/
+.heading h1{
+font-size: 70px;
+display: flex;
+justify-content: center;
 }
 
-p {
-    font-size: 30px;
-    padding-left: 20px;
-}
-.allDice {
-    /*background-color: tomato;*/
-    display: flex;
-    justify-content: space-evenly;    
-    padding-top: 30px;
-}
-
-.allDice img {
-    height: 180px;
-    /*background-color:yellow;*/
-}
-
-.rollDice {
-    /*background-color: red;*/
-    display: flex;
-    justify-content: center;
-    padding-top: 400px;
-
-}
-
-#button {
-    background: red;
-    font-size: 30px;
-    border-radius: 18px;
-    box-shadow: 0px 0px 15px 5px #000000;
-    padding:20px;
-}
-
-.rollDice {
-    padding-left: 165px;
-}
-
-#display {
-    /*background-color:blue;*/
+/*SCORECARD*/
+.top {
     font-size: 50px;
     display: flex;
     justify-content: center;
-    color: white;
+}
+
+/*DICE*/
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+/*BUTTON*/
+button {
+    background-color:yellow;
+    height: 50px;
+    width: 170px;
 }

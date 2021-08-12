@@ -1,17 +1,13 @@
-/*phil welsby - 11 aug 2021 - one player dice game
-  Function to generate random number*/
+/*phil welsby - 11 aug 2021 - one player dice game*/
 
-/*const number = document.getElementById('button');
 
-function randomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
 
-}
+let playerScore = 0;
 
-num = randomNumber(1, 7);
-console.dir(num);*/
+const playerScoreboard = document.getElementById('scoreboard');
 
-function generateRandomNumber(){
+
+/*function generateRandomNumber(){
 
   const rand = Math.floor(Math.random() * (7 - 1) + 1);
   document.getElementById('display').innerText = rand;
@@ -40,6 +36,4 @@ function generateRandomNumber(){
     img.src = "./images/6.png";
   }
   
-}
-
-
+}*/
