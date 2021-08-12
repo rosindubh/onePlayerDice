@@ -9,6 +9,7 @@ const playerScoreboard = document.getElementById('scoreboard');
 const dice = document.getElementById('dice');
 const rollButton = document.getElementById('rollButton');
 
+/*LISTEN FOR*/
 rollButton.addEventListener('click', () =>{
   let diceRoll = Math.floor(Math.random() * 6) +1;
   console.log(diceRoll); /*used to test button*/
