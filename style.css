@@ -7,10 +7,10 @@
 }
 
 body {
-    background-color: green;
+    /*background-color: green;*/
 }
 .heading {
-    background-color:yellow;
+    /*background-color:yellow;*/
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -37,7 +37,7 @@ body {
 
 }
 
-#submit {
+#button {
     background: red;
     font-size: 30px;
     border-radius: 8px;
