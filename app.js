@@ -1,11 +1,8 @@
 /*phil welsby - 11 aug 2021 - one player dice game*/
 
-
-
 let playerScore = 0;
 
 const playerScoreboard = document.getElementById('scoreboard');
-
 
 /*function generateRandomNumber(){
 
