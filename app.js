@@ -10,6 +10,16 @@ const rollButton = document.getElementById('rollButton');
 
 rollButton.addEventListener('click', () =>{
   let diceRoll = Math.floor(Math.random() * 6) +1;
-  console.log(diceRoll);
+  console.log(diceRoll); /*used to test button*/
+  if (diceRoll === 1) {
+    gameOver('You Lose!')
+  }
+
+  playerScore += diceRoll;
+  playerScoreboard.textContent = playerScore;
 });
+
+function gameOver(message) {
+  playerHeader.textContent = message;
+}
 
