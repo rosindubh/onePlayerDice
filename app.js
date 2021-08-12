@@ -9,4 +9,4 @@ function randomNumber(min, max) {
 }
 
 num = randomNumber(1, 7);
-console.log(num);
+console.dir(num);

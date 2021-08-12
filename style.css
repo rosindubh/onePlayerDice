@@ -25,8 +25,8 @@ body {
 }
 
 .allDice img {
-    height: 100px;
-    background-color: green;
+    height: 80px;
+    /*background-color:yellow;*/
 }
 
 .rollDice {
