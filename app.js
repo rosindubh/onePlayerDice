@@ -2,7 +2,11 @@
 
 let playerScore = 0;
 
+/*set variables*/
+const playerHeader = document.getElementById('playerHeader');
 const playerScoreboard = document.getElementById('scoreboard');
+const dice = document.getElementById('dice');
+const rollButton = document.getElementById('rollButton');
 
 /*function generateRandomNumber(){
 
