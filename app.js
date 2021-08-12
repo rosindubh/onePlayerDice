@@ -17,7 +17,7 @@ function generateRandomNumber(){
   document.getElementById('display').innerText = rand;
   if (rand == 1) {
     img = document.querySelector('img');
-    img.src = "./images/1.png";
+    img.src = "./images/loser.jpg";
   }
   else if (rand ==2) {
     img = document.querySelector('img');
@@ -42,6 +42,4 @@ function generateRandomNumber(){
   
 }
 
-/*const img = document.querySelector("img"); 
-img.src = "./images.i.png";*/
 
