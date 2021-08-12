@@ -1,5 +1,6 @@
 /*phil welsby - 11 aug 2021 - one player dice game*/
 
+/*Variable to keep players score*/
 let playerScore = 0;
 
 /*set variables*/
@@ -11,15 +12,18 @@ const rollButton = document.getElementById('rollButton');
 rollButton.addEventListener('click', () =>{
   let diceRoll = Math.floor(Math.random() * 6) +1;
   console.log(diceRoll); /*used to test button*/
+  /*YOU LOSE*/
   if (diceRoll === 1) {
-    gameOver('You Lose!')
+    gameOver('You Lose!') /*call function <gameOver> with variable <"You Lose">*/
   }
 
+  /*increment players score*/
   playerScore += diceRoll;
-  playerScoreboard.textContent = playerScore;
+  playerScoreboard.textContent = playerScore; /*display players score to screen as an H3 heading*/
 });
 
-function gameOver(message) {
+/*GAME OVER FUNCTION*/
+function gameOver(message) { /*this is a parameter*/
   playerHeader.textContent = message;
 }
 
