@@ -10,16 +10,37 @@ body {
     background-color: green;
 }
 .heading {
-    background-color:green;
+    background-color:yellow;
     display: flex;
     justify-content: center;
-    padding-top: 80px;
-    height: 20vh
+    padding-top: 50px;
+    height: 15vh
     ;
 }
 .allDice {
+    /*background-color: tomato;*/
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;    
     padding-top: 30px;
-    
+}
+
+.allDice img {
+    height: 100px;
+    background-color: green;
+}
+
+.rollDice {
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    padding-top: 500px;
+
+}
+
+#submit {
+    background: red;
+    font-size: 30px;
+    border-radius: 8px;
+    margin: 10px;
+    color: white;
 }
