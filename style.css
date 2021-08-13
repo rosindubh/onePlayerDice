@@ -61,7 +61,7 @@ button {
 .update {
     font-size: 50px;
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
 
 }
 
