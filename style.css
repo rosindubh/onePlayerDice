@@ -90,7 +90,7 @@ button {
 
 #player1 {
     padding-right: 200px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 #diceroll {
@@ -99,14 +99,14 @@ button {
 }
 
 #score {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-right: 20px;
 }
 
 
 
 #scoreboard {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 #dice{
