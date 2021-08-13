@@ -24,18 +24,24 @@ rollButton.addEventListener('click', () =>{
 
   else if (diceRoll == 2) {
     console.log('diceRoll', diceRoll);
+    dice.src="images/2.png";
   }
   else if (diceRoll == 3) {
     console.log('diceRoll', diceRoll)
+    dice.src="images/3.png";
   }
   else if (diceRoll == 4) {
     console.log('diceRoll', diceRoll)
+    dice.src="images/4.png";
   }
   else if (diceRoll == 5) {
     console.log('diceRoll', diceRoll);
+    dice.src="images/5.png";
   }
   else if (diceRoll == 6) {
     console.log('diceRoll', diceRoll);
+    dice.src="images/6.png";
+
   }
   /*increment players score*/
   playerScore += diceRoll;
