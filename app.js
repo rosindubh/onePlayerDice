@@ -67,7 +67,7 @@ if (playerScore >= 20) {
     playerScore = 0;
     playerHeader.textContent = "";
     playerScoreboard.textContent = 0;
-    dice.textContent = "";
+    diceroll.textContent = "";
 })
 
 
