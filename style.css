@@ -6,10 +6,14 @@
     padding: 0px;
 }
 
+body {
+    background-color: green;
+}
 .allDice {
-    background-color: wheat;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 150px;
 }
 
 /*HEADING*/
@@ -35,11 +39,21 @@ justify-content: center;
 .bottom {
     display: flex;
     justify-content: center;
-}
+    padding-top: 30px;}
 
 /*BUTTON*/
 button {
-    background-color:yellow;
     height: 50px;
     width: 170px;
 }
+
+#rollButton {
+    background-color: red;
+    color: white;
+}
+
+#resetButton {
+    background-color: red;
+    color: white;
+}
+
