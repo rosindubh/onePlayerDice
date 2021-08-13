@@ -80,12 +80,15 @@ button {
     background-color: red;
     color: white;
     border-radius: 20px;
+    font-size: larger;
+
 }
 
 #resetButton {
     background-color: red;
     color: white;
     border-radius: 20px;
+    font-size: larger;
 }
 
 #player1 {
