@@ -10,15 +10,18 @@ const player1 = document.getElementById('player1')
 const dice = document.getElementById('dice');
 const rollButton = document.getElementById('rollButton');
 const resetButton = document.getElementById("resetButton");
+const diceroll = document.getElementById('diceroll');
 
 /*LISTEN FOR click*/
 rollButton.addEventListener('click', () =>{
   let diceRoll = Math.floor(Math.random() * 6) +1;
   //console.log('diceRoll =', diceRoll); /*used to test button*/
+  diceroll.textContent = diceRoll;
 
   /*YOU LOSE*/
   if (diceRoll === 1) {
     console.log('diceRoll', diceRoll);
+    dice.src="images/1.png"
     gameOver('You Lose!'); /*call function <gameOver> with variable <"You Lose">*/
   }
 
@@ -43,6 +46,9 @@ rollButton.addEventListener('click', () =>{
     dice.src="images/6.png";
 
   }
+
+
+
   /*increment players score*/
   playerScore += diceRoll;
   playerScoreboard.textContent = playerScore; /*display players score to screen as an H3 heading*/
@@ -60,9 +66,8 @@ if (playerScore >= 20) {
   resetButton.addEventListener("click", () => {
     playerScore = 0;
     playerHeader.textContent = "";
-
-    // 
     playerScoreboard.textContent = 0;
+    dice.textContent = "";
 })
 
 

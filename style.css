@@ -58,6 +58,13 @@ button {
     width: 170px;
 }
 
+.update {
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
 #rollButton {
     background-color: red;
     color: white;
@@ -75,11 +82,19 @@ button {
     padding-top: 50px;
 }
 
+#diceroll {
+    /*background-color: lightpink;*/
+    padding-left: 40px;
+}
+
 #score {
     padding-top: 50px;
     padding-right: 20px;
 }
 
+
+
 #scoreboard {
     padding-top: 50px;
 }
+
