@@ -7,17 +7,25 @@
 }
 
 body {
-    background-color: #009900;
+    /*background-color: #009900;*/
+    background-image: url("./images/casinoGif.gif");
+    color: white;
 }
 .allDice {
+    background-color:green;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 70px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 24vh;
     box-shadow: 5px 5px 20px 5px #000000;
 }
 
 /*HEADING*/
+.heading {
+    background-color: green;
+}
+
 .heading h1{
 font-size: 35px;
 display: flex;
@@ -36,6 +44,7 @@ justify-content: center;
 
 /*SCORECARD*/
 .top {
+    background-color: green;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -43,6 +52,7 @@ justify-content: center;
 
 /*DICE*/
 .middle {
+    background-color: green;
     display: flex;
     justify-content: center;
     height: 10vh;}
@@ -59,6 +69,7 @@ button {
 }
 
 .update {
+    background-color: green;
     font-size: 50px;
     display: flex;
     justify-content:center;
@@ -79,7 +90,7 @@ button {
 
 #player1 {
     padding-right: 200px;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 #diceroll {
@@ -96,5 +107,9 @@ button {
 
 #scoreboard {
     padding-top: 50px;
+}
+
+#dice{
+    padding-top: 30px;
 }
 
