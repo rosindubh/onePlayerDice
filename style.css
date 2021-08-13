@@ -12,8 +12,9 @@ body {
 .allDice {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 150px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    box-shadow: 5px 5px 20px 5px #000000;
 }
 
 /*HEADING*/
@@ -21,6 +22,16 @@ body {
 font-size: 35px;
 display: flex;
 justify-content: center;
+}
+
+.instructionsTop {
+    padding-top: 30px;
+    box-shadow: 5px 5px 20px 5px #000000;
+}
+
+.instructionsLwr {
+    padding-top: 30px;
+    box-shadow: 5px 5px 20px 5px #000000;
 }
 
 /*SCORECARD*/
@@ -34,8 +45,8 @@ justify-content: center;
 .middle {
     display: flex;
     justify-content: center;
-}
-
+    height: 10vh;}
+    
 .bottom {
     display: flex;
     justify-content: center;
@@ -51,7 +62,6 @@ button {
     background-color: red;
     color: white;
     border-radius: 20px;
-
 }
 
 #resetButton {
@@ -60,3 +70,16 @@ button {
     border-radius: 20px;
 }
 
+#player1 {
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+#score {
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+#scoreboard {
+    padding-top: 50px;
+}
