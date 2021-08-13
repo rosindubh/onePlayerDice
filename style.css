@@ -64,7 +64,8 @@ justify-content: center;
 .bottom {
     display: flex;
     justify-content: center;
-    padding-top: 30px;}
+    padding-top: 0px;}
+
 
 /*BUTTON*/
 button {
