@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: green;
+    background-color: #009900;
 }
 .allDice {
     display: flex;
@@ -50,10 +50,13 @@ button {
 #rollButton {
     background-color: red;
     color: white;
+    border-radius: 20px;
+
 }
 
 #resetButton {
     background-color: red;
     color: white;
+    border-radius: 20px;
 }
 
