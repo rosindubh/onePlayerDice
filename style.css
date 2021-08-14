@@ -48,8 +48,8 @@ justify-content: center;
 
 /*SCORECARD*/
 .top {
-    background-color: green;
-    font-size: 50px;
+    background-color: red;
+    font-size: 30px;
     display: flex;
     justify-content: center;
 }
