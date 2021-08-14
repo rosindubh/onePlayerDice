@@ -37,21 +37,23 @@ justify-content: center;
 }
 
 .instructionsTop {
-    padding-top: 30px;
+    background-color: green;
+    padding-top: 0px;
     box-shadow: 5px 5px 20px 5px #000000;
 }
 
 .instructionsLwr {
-    padding-top: 30px;
+    padding-top: 15px;
     box-shadow: 5px 5px 20px 5px #000000;
 }
 
 /*SCORECARD*/
 .top {
-    background-color:green;
-    font-size: 30px;
+    background-color: green;
+    font-size:30px;
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 /*DICE*/
@@ -74,11 +76,11 @@ button {
 }
 
 .update {
-    background-color:green;
-    font-size: 30px;
+    background-color: green;
+    font-size: 25px;
     display: flex;
     justify-content:center;
-    padding-bottom: 0px;
+    padding-bottom: 25px;
 }
 
 .bottom {
