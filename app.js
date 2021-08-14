@@ -14,6 +14,9 @@ const rollButton = document.getElementById('rollButton');
 const resetButton = document.getElementById("resetButton");
 const diceroll = document.getElementById('diceroll');
 
+//block display of reset button
+resetButton.style.display = "none";
+
 /*LISTEN FOR click*/
 rollButton.addEventListener('click', () =>{
   let diceRoll = Math.floor(Math.random() * 6) +1;
@@ -51,18 +54,27 @@ rollButton.addEventListener('click', () =>{
 if (playerScore >= 20) {
   gameOver("Your a WINNER!!!");
 }
-  // RESET BUTTON
-  resetButton.addEventListener("click", () => {
-    playerScore = 0;
-    playerHeader.textContent = "";
-    playerScoreboard.textContent = 0;
-    diceroll.textContent = "";
-})
+
 });
+
+  // RESET BUTTON
+resetButton.addEventListener("click", () => {
+  playerScore = 0;
+  playerScoreboard.textContent = 0;
+  rollButton.style.display = "block";
+  resetButton.style.display = "none";
+  playerHeader.textContent = "";
+
+
+  diceroll.textContent = "";
+})
 
 /*GAME OVER FUNCTION*/
 function gameOver(message) { /*this is a parameter*/
   playerHeader.textContent = message;
+  resetButton.style.display = "block";
+  rollButton.style.display = "none";
+
 }
 
 
