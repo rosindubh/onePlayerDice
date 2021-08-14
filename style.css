@@ -48,7 +48,7 @@ justify-content: center;
 
 /*SCORECARD*/
 .top {
-    background-color: red;
+    background-color:green;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@ justify-content: center;
 .bottom {
     display: flex;
     justify-content: center;
-    padding-top: 0px;}
+    padding-top: 10px;}
 
 
 /*BUTTON*/
@@ -74,15 +74,15 @@ button {
 }
 
 .update {
-    background-color: green;
-    font-size: 50px;
+    background-color:green;
+    font-size: 30px;
     display: flex;
     justify-content:center;
     padding-bottom: 0px;
 }
 
 #rollButton {
-    background-color: red;
+    background-color:green;
     color: white;
     border-radius: 20px;
     font-size: larger;
@@ -118,8 +118,8 @@ button {
 }
 
 #dice{
+    background-color: ivory;
     padding-top: 0px;
-    padding-bottom: 215px;
-    height: 320px;
+    height: 100px;
 }
 
